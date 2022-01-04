@@ -34,9 +34,26 @@
   #include <unistd.h>
   #include <stdio.h>
   #include <unistd.h>
+  #include <sys/wait.h>
+  #include <sys/mman.h>
+  #include <sys/stat.h>
+  #include <time.h>
+  #include <dirent.h>
+  #include <string.h>
+  #include <pwd.h>
+
   #include "../../elearcommon/logger.h"
   #include "../../elearcommon/allocate.h"
   #include "../../elearcommon/util.h"
+  #include "../../DevTestingProg/dev_training/randomAccess.h"
+  #include "../../DevTestingProg/dev_training/hello.h"
+  #include "../../DevTestingProg/dev_training/copy.h"
+  #include "../../DevTestingProg/dev_training/copy_standard.h"
+  #include "../../DevTestingProg/dev_training/bufio.h"
+  #include "../../DevTestingProg/dev_training/rawio.h"
+  #include "../../DevTestingProg/dev_training/fork.h"
+  #include "../../DevTestingProg/dev_training/7_mmap.h"
+    #include "../../DevTestingProg/dev_training/8_timeStampFile.h"
 
 
 /*************************************************************************************
